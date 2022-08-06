@@ -1,8 +1,3 @@
-"Source:","/Users/bradleyb/Google Drive/workshop/Apple II/Disk/DiskII/DiskII.kicad_sch"
-"Date:","Saturday, August 06, 2022 at 02:22:40 PM"
-"Tool:","Eeschema (6.0.5-0)"
-"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","31"
 "Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
 "C1, C3, C4, C5, C6, C7, ","6",".1uF","C_Small","Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm","Unpolarized capacitor, small symbol",""
 "C2, ","1","22uF","C_Polarized_US","Capacitor_THT:CP_Radial_D8.0mm_P5.00mm","Polarized capacitor, US symbol",""
