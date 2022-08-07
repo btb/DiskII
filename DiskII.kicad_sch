@@ -2898,7 +2898,6 @@
     )
   )
 
-
   (junction (at 234.95 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 06b18a27-a37c-4752-83c0-7f25e4cddb93)
   )
@@ -6833,7 +6832,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x25_Counter_Clockwise") (at 64.77 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid df91f818-18b0-428e-9646-6922c8f8d203)
     (property "Reference" "J1" (id 0) (at 66.04 145.6182 0))
     (property "Value" "Apple II Expansion Bus" (id 1) (at 66.04 147.9296 0))
