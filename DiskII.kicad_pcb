@@ -811,7 +811,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 467b67e5-cbfa-4a42-bfe0-c2419902fcd2)
     )
-    (fp_text value "74LS259" (at 3.81 8.875 180) (layer "F.SilkS")
+    (fp_text value "74LS259" (at 4.318 8.875 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21ed68e4-7e96-48ea-ba2b-4d971e17e02e)
     )
