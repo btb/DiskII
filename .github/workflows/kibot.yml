@@ -1,0 +1,36 @@
+name: KiCad CI/CD
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+    - '**.sch'
+    - '**.kicad_pcb'
+  pull_request:
+    paths:
+      - '**.sch'
+      - '**.kicad_pcb'
+
+jobs:
+  DiskII:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get repo
+      uses: actions/checkout@v3
+      with:
+        # So we can run a diff between last 2 changes
+        fetch-depth: '0'
+
+    - name: Run KiBot
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: DiskII.kibot.yaml
+        schema: DiskII.kicad_sch
+        board: DiskII.kicad_pcb
+
+    - name: Upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: Automatic_outputs
+        path: Generated
