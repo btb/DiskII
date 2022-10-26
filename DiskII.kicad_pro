@@ -55,12 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|118673333|112228380|fd5bcccb-aef9-404a-9593-6c8c0d460080|c99a4f5e-2814-4418-992f-d11ccd9016d9",
-        "silk_overlap|118673333|84796380|8d092537-a7b7-4df7-afbe-25d99e38be23|dedc0432-f910-4e62-9c44-b570c289b4c2",
-        "silk_overlap|118690000|112228380|c99a4f5e-2814-4418-992f-d11ccd9016d9|fd5bcccb-aef9-404a-9593-6c8c0d460080",
-        "silk_overlap|118690000|84796380|dedc0432-f910-4e62-9c44-b570c289b4c2|8d092537-a7b7-4df7-afbe-25d99e38be23"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -68,7 +63,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -124,7 +119,12 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        1.016,
+        1.27,
+        1.6,
+        2.032
       ],
       "via_dimensions": [
         {
@@ -392,8 +392,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.016,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 1.016,
+        "via_drill": 0.508,
         "wire_width": 6.0
       },
       {
