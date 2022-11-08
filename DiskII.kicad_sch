@@ -2828,7 +2828,6 @@
     )
   )
 
-
   (junction (at 198.12 203.2) (diameter 0) (color 0 0 0 0)
     (uuid 0094ee5f-f1ad-4818-8ef4-3a1a58072484)
   )
@@ -4852,7 +4851,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 180.34 165.1 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0c079ea8-724f-4f5b-ac93-da29ddc9f3e3)
     (property "Reference" "JP6A10" (id 0) (at 180.34 168.91 0))
     (property "Value" "A10" (id 1) (at 180.34 161.29 0)
@@ -5187,7 +5186,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 358.14 40.64 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 40e2dfa9-441f-491c-b82f-3a4e43bb7b26)
     (property "Reference" "JP17" (id 0) (at 355.6 39.3699 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5380,7 +5379,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 360.68 39.37 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 52ec7f6e-8205-4c22-b9c5-8c09f067a853)
     (property "Reference" "JP19" (id 0) (at 363.22 38.0999 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5551,7 +5550,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 71.12 88.9 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 68ce1d1b-77b7-47f3-a918-58aa8535716c)
     (property "Reference" "JP5A9" (id 0) (at 71.12 92.71 0))
     (property "Value" "A9" (id 1) (at 71.12 85.09 0)
@@ -6247,7 +6246,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 83.82 96.52 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid c241c46f-2d7f-48aa-853b-dba6ab000fee)
     (property "Reference" "JP5A10" (id 0) (at 83.82 100.33 0))
     (property "Value" "A10" (id 1) (at 83.82 92.71 0)
@@ -6346,7 +6345,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged12") (at 167.64 162.56 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid ced3dfe4-5c69-4998-8c7e-ad25a204accd)
     (property "Reference" "JP6A9" (id 0) (at 167.64 166.37 0))
     (property "Value" "A9" (id 1) (at 167.64 158.75 0)
